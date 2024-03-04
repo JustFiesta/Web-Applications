@@ -8,8 +8,10 @@ $people = [
     "Bartosz" => 18,
     "Piotr" => 40
 ];
-//TODO print: Jan ma 45 lat, Bartosz ma 38 lat, Piotr ma 40 lat
 
+foreach ($people as $name => $age) {
+    echo $name . " ma " . $age . " lat.\n";
+}
 
 print "\nLiczba elementów w liście: ".count($people);
 print "\nWiek Pana Bartosza: ".$people["Bartosz"];
