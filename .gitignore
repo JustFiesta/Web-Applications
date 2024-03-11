@@ -1,2 +1,5 @@
 Labs/*/vendor/*
 Labs/*/composer.lock
+composer.json
+composer.lock
+vendor/*
