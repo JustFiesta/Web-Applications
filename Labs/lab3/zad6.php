@@ -7,3 +7,4 @@
   $twig = new \Twig\Environment($loader);
 
   echo $twig->render('zad6.twig', ['trips' => $trips]);
+?>
