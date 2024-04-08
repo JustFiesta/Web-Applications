@@ -1,31 +1,26 @@
 {{-- To jest komentarz. --}}
-@if($name != null))
-    @if($name)
-        Hello, {{ $name }}
-    @else
-        Brak imienia
-    @endif
-    <br>
+@if($name)
+    Hello, {{ $name }}<br>
+
     @if(strpos($name, 'B') === 0)
-        Imię zaczyna się na B
+        Imię zaczyna się na B<br>
     @else
-        Nie zaczyna się na B
+        Nie zaczyna się na B<br>
     @endif
 @else
-    Brak imienia
+    Brak imienia<br>
 @endif
 
 @if(count($arr) > 0)
     @foreach($arr as $key => $value)
-        <p>
-            @if($loop->first)
-                To jest pierwsza iteracja przy pierwszym elemencie
-            @elseif($loop->last)
-                To jest ostatnia iteracja przy ostatnim elemencie
-            @endif
-            {{ $value }}
-        </p>
+        @if($loop->first)
+            <p>pierwsza iteracja {{ $value }}</p>
+        @elseif($loop->last)
+            <p>ostatnia iteracja {{ $value }}</p>
+        @else
+            {{ $value }},
+        @endif
     @endforeach
 @else
-    Tablica nie zawiera żadnych elementów
+    Tablica arr nie zawiera żadnego elementu
 @endif
