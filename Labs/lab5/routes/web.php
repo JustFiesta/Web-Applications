@@ -69,3 +69,5 @@ Route::get('/trips', function()
     return view('index');
 });
 
+
+Route::get('/test1', [NameController::class, 'test1']);

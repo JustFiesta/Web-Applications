@@ -12,4 +12,9 @@ class NameController extends Controller
         $arr = ['a', 'b', 'c', 'd', 'e'];
         return view('zad13', compact('name','arr'));
     }
+
+    public function test1(Request $request)
+    {
+        return 'Mateusz Bocak';
+    }
 }
