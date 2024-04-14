@@ -12,4 +12,9 @@ class Country extends Model
     protected $fillable = ['name', 'code', 'currency', 'area', 'language'];
 
     public $timestamps = false;
+
+    public function trips()
+    {
+        return $this->hasMany(Trip::class);
+    }
 }
