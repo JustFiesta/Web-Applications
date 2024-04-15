@@ -1,0 +1,29 @@
+1) Operacje CRUD:
+CRUD to skrót od Create, Read, Update, Delete. Są to podstawowe operacje wykonywane na danych w bazie danych lub systemie informatycznym.
+    Create: Tworzenie nowych rekordów w bazie danych lub dodawanie nowych elementów do systemu.
+    Read: Odczytywanie danych z bazy danych lub systemu, czyli pobieranie istniejących rekordów.
+    Update: Aktualizowanie istniejących rekordów w bazie danych lub modyfikowanie istniejących danych w systemie.
+    Delete: Usuwanie rekordów z bazy danych lub usuwanie danych z systemu.
+
+
+2)Walidacja danych:
+Walidacja danych to proces sprawdzania poprawności danych przed ich zapisaniem do bazy danych lub przetworzeniem w systemie.
+Celem walidacji danych jest zapewnienie, że dane spełniają określone kryteria, np. format danych, wymagane pola, ograniczenia wartości, itp.
+Walidacja danych po stronie backend’u:
+
+3)Walidacja danych po stronie backend’u
+odbywa się na serwerze, zwykle przed zapisaniem danych do bazy danych.
+Backend jest odpowiedzialny za sprawdzenie poprawności danych na podstawie określonych reguł i zasad.
+Walidacja danych po stronie frontend’u:
+
+4)Walidacja danych po stronie frontend’u
+odbywa się na poziomie przeglądarki użytkownika, zanim dane zostaną wysłane do serwera.
+Jest to zazwyczaj wykonywane za pomocą języków takich jak JavaScript, który może sprawdzać poprawność danych wprowadzanych przez użytkownika na stronie internetowej.
+
+5)Przekierowanie (redirect):
+Przekierowanie to technika używana w aplikacjach internetowych, która polega na przekierowaniu użytkownika z jednej strony internetowej do innej.
+Może być stosowane w różnych kontekstach, na przykład po zapisaniu danych formularza, aby użytkownik został przekierowany na stronę potwierdzenia.
+
+6)Przekierowanie do ścieżki nazwanej w Laravel’u:
+W frameworku Laravel przekierowanie do ścieżki nazwanej odbywa się za pomocą funkcji redirect()->route('nazwa_sciezki').
+Nazwane ścieżki to przydzielone nazwy dla określonych ścieżek w aplikacji Laravel, co ułatwia zarządzanie odnośnikami URL w aplikacji.
