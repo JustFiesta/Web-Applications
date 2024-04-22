@@ -1,0 +1,15 @@
+Identyfikacja (Identification): To proces rozpoznawania i ustalania tożsamości podmiotu, czy to użytkownika, urządzenia lub systemu komputerowego. Może obejmować wykorzystanie unikalnych identyfikatorów, danych osobowych lub innych informacji identyfikacyjnych.
+
+Uwierzytelnienie (Authentication): Jest to proces weryfikacji tożsamości podmiotu. W kontekście aplikacji internetowych, jest to proces potwierdzania, że użytkownik jest tym, za kogo się podaje. Może to być realizowane poprzez wprowadzenie loginu i hasła, uwierzytelnienie dwuetapowe, biometryczne itp.
+
+Autoryzacja (Authorization): To proces kontrolowania dostępu do zasobów lub funkcji po pomyślnym uwierzytelnieniu. Polega na sprawdzeniu uprawnień użytkownika w celu określenia, czy dany użytkownik ma prawo wykonywać określone operacje lub uzyskać dostęp do określonych zasobów.
+
+Niepoprawne tłumaczenia słowa „authentication” na język polski: Niektóre niepoprawne tłumaczenia słowa „authentication” na język polski to np. "autentykacja" lub "uwierzytelnienie". W praktyce używa się jednak słowa "uwierzytelnienie".
+
+Czy HTTP jest protokołem bezstanowym (stateless protocol)?: Tak, HTTP jest protokołem bezstanowym, co oznacza, że każde żądanie jest obsługiwane niezależnie od poprzednich żądań. Serwer nie przechowuje informacji o poprzednich żądaniach, co oznacza, że każde żądanie jest obsługiwane niezależnie.
+
+Aplikacja stanowa (Stateful application): Jest to aplikacja, która przechowuje stan sesji lub inne dane dotyczące stanu między żądaniami HTTP. W przeciwieństwie do aplikacji bezstanowych, aplikacje stanowe przechowują informacje o stanie użytkownika, co pozwala na kontekstowe przetwarzanie żądań.
+
+Sesje (Sessions), identyfikator sesji (Session ID): Sesje są mechanizmem używanym w aplikacjach webowych do przechowywania danych sesji między żądaniami. Identyfikator sesji (Session ID) jest unikalnym identyfikatorem przypisanym do każdej sesji, który jest zazwyczaj przechowywany w ciasteczku lub przekazywany w adresie URL.
+
+Ciasteczka (Cookies): Są to małe pliki tekstowe przechowywane przez przeglądarkę internetową na urządzeniu użytkownika. Służą do przechowywania informacji, takich jak preferencje użytkownika, dane sesji, dane logowania itp. Ciasteczka są często wykorzystywane do uwierzytelniania i śledzenia użytkowników na stronach internetowych.

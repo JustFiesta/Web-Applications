@@ -1,0 +1,18 @@
+ZAD 8.18
+HTTPS i obecność zamka w pasku adresu URL: HTTPS zapewnia szyfrowane połączenie między przeglądarką użytkownika a serwerem internetowym, co chroni dane przesyłane między nimi przed przechwyceniem przez osoby trzecie. Obecność zamka w pasku adresu URL informuje użytkownika, że połączenie jest bezpieczne i dane są chronione.
+
+Silne hasła: Silne hasła są kluczowe dla bezpieczeństwa kont użytkowników. Powinny być długie, zawierać różne typy znaków (małe i duże litery, cyfry, znaki specjalne) oraz unikalne dla każdego konta.
+
+Przechowywanie haseł w przeglądarce internetowej: Wiele przeglądarek internetowych oferuje funkcję przechowywania haseł, co ułatwia użytkownikom zarządzanie nimi. Jednakże należy pamiętać, że przechowywanie haseł w przeglądarce może być ryzykowne, jeśli urządzenie jest używane przez wiele osób lub jest narażone na ataki.
+
+Menedżery haseł: Menedżery haseł to narzędzia, które pomagają użytkownikom generować, przechowywać i zarządzać silnymi hasłami. Mogą być lokalne (np. KeePassXC) lub chmurowe, co oznacza, że dane są przechowywane w chmurze i dostępne z różnych urządzeń.
+
+Uwierzytelnianie wieloskładnikowe (MFA): MFA to proces uwierzytelniania, który wymaga od użytkownika podania dodatkowego rodzaju danych oprócz hasła, na przykład kodu jednorazowego generowanego przez aplikację autoryzacyjną lub wysłanego na telefon użytkownika.
+
+Uwierzytelnianie dwuskładnikowe (2FA): 2FA to rodzaj MFA, który wykorzystuje dwa różne sposoby uwierzytelniania, na przykład hasło i kod jednorazowy wysłany na telefon.
+
+Ograniczone czasowe hasło jednorazowe (TOTP): TOTP to rodzaj kodu jednorazowego generowanego przez aplikację autoryzacyjną, który jest ważny tylko przez ograniczony czas.
+
+Klucz zabezpieczający U2F (np. YubiKey): Klucze U2F są fizycznymi urządzeniami, które służą do uwierzytelniania użytkowników. Wymagają włożenia do portu USB lub naciśnięcia przycisku w celu potwierdzenia tożsamości.
+
+Ataki na konta użytkowników: Istnieje wiele rodzajów ataków, które mogą być skierowane na konta użytkowników, takich jak keyloggery, przechwytywanie sesji, kradzież ciasteczek, malware i phishing. Dlatego ważne jest, aby użytkownicy byli świadomi potencjalnych zagrożeń i stosowali środki ostrożności, takie jak korzystanie z silnych haseł, unikanie klikania w podejrzane linki i regularne aktualizowanie oprogramowania antywirusowego i anty-malware.
