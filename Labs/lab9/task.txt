@@ -1,0 +1,10 @@
+Problem N+1 to nadmierna liczba zapytań do bazy danych w aplikacjach ORM, np. Eloquent w Laravel, 
+gdzie dla każdego obiektu głównego wykonywane jest osobne zapytanie na dane powiązane. 
+Rozwiązaniem jest używanie chętnego ładowania danych (Eager Loading) za pomocą metody with() w Eloquent, 
+co pozwala zmniejszyć liczbę zapytań poprzez ładowanie danych powiązanych w jednym zapytaniu.
+
+
+Logika biznesowa to zbiór zasad i operacji definiujących działanie aplikacji lub organizacji. 
+Warstwa serwisów w Laravelu izoluje tę logikę, umożliwiając łatwiejsze zarządzanie i testowanie kodu. 
+Wstrzykiwanie zależności (dependency injection) w Laravelu pomaga w 
+odseparowaniu obiektów i zapewnia elastyczność poprzez dostarczanie zależności do klas zamiast ich tworzenia wewnątrz.

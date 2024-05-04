@@ -10,9 +10,6 @@ use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 
-
-use function PHPUnit\Framework\callback;
-
 class TripController extends Controller
 {
     protected $tripService;
@@ -24,7 +21,7 @@ class TripController extends Controller
 
     public function index()
     {
-        $trips = Trip::with('country')->get();
+        $trips = Trip::with('country:id,name')->get();
         return view('trips.index', [
             'trips' => $trips,
             'randomTrips' => $trips->random(4),
@@ -33,15 +30,24 @@ class TripController extends Controller
 
     public function show($id)
     {
+        // Logowanie informacji o wyświetlaniu szczegółów wycieczki
+        Log::info('Showing details for trip: '.$id);
+        Log::channel('stderr')->info('Showing details for trip: '.$id);
+
         $trip = Trip::findOrFail($id);
+
         $promoPrice = $this->tripService->calculatePromoPrice($trip->price);
 
-        Log::info('Showing details for trip: '.$id);
-Log::channel('stderr')->info('Showing details for trip: '.$id); 
+        $redirectUrls = [
+            'http://localhost:8000/trips/1',
+            'http://localhost:8000/trips/4',
+            'http://localhost:8000/trips/6',
+        ];
 
         return view('trips.show', [
             'trip' => $trip,
-            'promoPrice' => $promoPrice
+            'promoPrice' => $promoPrice,
+            'redirectUrls' => $redirectUrls
         ]);
     }
 
